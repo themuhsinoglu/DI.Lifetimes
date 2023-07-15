@@ -26,6 +26,7 @@ namespace SingletonScopedTransient.Controllers
         [Route("firstRequest")]
         public IActionResult FirstRequest()
         {
+            //deneme
             List<Guid> list1 = new List<Guid>
             {
                 _singletonService.guidId,
